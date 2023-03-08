@@ -12,3 +12,5 @@ if __name__ == '__main__':
     db = client.admin
     dbs_list = db.command('listDatabases')
     pprint(dbs_list)
+    print('End')
+
